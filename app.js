@@ -64,7 +64,7 @@ const sumAllyear = allMoviesYear.reduce((acc, curVal) => {
   }
   return acc;
 }, {});
-console.log(sumAllyear); // Bu Yerda Yillar Bor Masalan 2025 - yilgi Kinolardan 1  Va Shung O'xshash Bir Yilda 2 ta Kino Bo'lsa 2 ta Chiqaradi
+console.log(sumAllyear); // Bu Yerda Yillar Bor Masalan 2025 - yilgi Kinolardan 1  Va Shungasa O'xshash Bir Yilda 2 ta Kino Bo'lsa 2 ta Chiqaradi
 
 // Sort() Metodi Malumotni Nushalamaydi Nusxalash Uchun ' [...movies] ' va 'Object.assign(movies) dan foydalaniladi dan Foydalaniladi
 
